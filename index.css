@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: rgb(97, 190, 97);
+}
+#title-box i{
+    font-size: 50px;
+    color: grey;
+}
+#title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+#container-box{
+    padding: 20px;
+    height: 100%;
+    background: dodgerblue;
+    overflow-y: hidden;
+
+}
+
+#container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: rgb(226, 241, 13);
+    box-shadow: 0 0 15px 0;
+    
+}
+#app-btn{
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    background: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+#app-btn button{
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    padding: 25px;
+    font-size: 18px;
+    gap: 15px;
+    top: 0;
+    margin-top: 0;
+    align-items: center;
+}
+
+#app-btn button:hover{
+    background: darkorange;
+    cursor: pointer;
+    color: white;
+}
+#img-box{
+    margin: 5px 5px;
+    background: yellow;
+    display: block;
+}
+#img-box img{
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    border: none;
+}
+#last-tag{
+    background: rgb(101, 208, 101);
+    height: 77px;
+    overflow: hidden;
+    text-align: center;
+
+}
+#last-tag h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+@media(max-width: 768px){
+
+   
+
+    #title-box i{
+        font-size: 30px;
+        color: whitesmoke;
+    }
+    #title{
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 35px;
+    }
+    #container{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #app-btn{
+        padding: 5px;
+        gap: 10px;
+    }    
+    #app-btn button{
+        border: 1px solid dodgerblue;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 25px;
+        gap: 15px;
+        top: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+    #img-box img{
+        width: 300px;
+        height: 250px;
+        border-radius: 8px;
+        border: none;
+}
+#last-tag{
+    background: rgb(101, 208, 101);
+    height: 75px;
+    overflow: hidden;
+}
+}
